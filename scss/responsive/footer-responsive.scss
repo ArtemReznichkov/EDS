@@ -1,0 +1,80 @@
+@import "mixins";
+
+
+footer {
+  .footer-container {
+    @include tablet {
+      display: none;
+    }
+    .footer-menu {
+      .nav-elements {
+        li {
+          @include smallaptop {
+            padding: 0 10px;
+            a {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .leave-message {
+    @include tablet {
+      display: none;
+    }
+  }
+  @include tablet {
+    padding: 35px 20px;
+  }
+
+  .mobile-footer-wrapper {
+    display: none;
+    @include tablet {
+      display: block;
+    }
+    .footer-company-info {
+      text-align: center;
+      img {
+        width: 110px;
+        height: 30px;
+        margin-bottom: 25px;
+      }
+      .main-info {
+        font-size: 14px;
+        font-family: "OpenSans";
+      }
+    }
+
+    .footer-mobile-menu {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 50px;
+      margin: 50px auto;
+      max-width: 300px;
+      .mobile-menu-element {
+        text-transform: uppercase;
+        width: 40%;
+        margin-bottom: 20px;
+        font-size: 14px;
+        font-family: "RobotoCondensed-Bold";
+      }
+    }
+    .contact-information {
+      text-align: center;
+      .contact-title {
+        margin-bottom: 20px;
+      }
+      .contact-info {
+        margin-bottom: 20px;
+      }
+      .phone {
+        margin-bottom: 20px;
+      }
+    }
+    .copyright {
+      margin-top: 50px;
+    }
+  }
+}

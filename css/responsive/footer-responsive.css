@@ -1,0 +1,63 @@
+@media (max-width: 768px) {
+  footer .footer-container {
+    display: none; } }
+
+@media (max-width: 1024px) {
+  footer .footer-container .footer-menu .nav-elements li {
+    padding: 0 10px; }
+    footer .footer-container .footer-menu .nav-elements li a {
+      font-size: 14px; } }
+
+@media (max-width: 768px) {
+  footer .leave-message {
+    display: none; } }
+
+@media (max-width: 768px) {
+  footer {
+    padding: 35px 20px; } }
+
+footer .mobile-footer-wrapper {
+  display: none; }
+  @media (max-width: 768px) {
+    footer .mobile-footer-wrapper {
+      display: block; } }
+  footer .mobile-footer-wrapper .footer-company-info {
+    text-align: center; }
+    footer .mobile-footer-wrapper .footer-company-info img {
+      width: 110px;
+      height: 30px;
+      margin-bottom: 25px; }
+    footer .mobile-footer-wrapper .footer-company-info .main-info {
+      font-size: 14px;
+      font-family: "OpenSans"; }
+  footer .mobile-footer-wrapper .footer-mobile-menu {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin: 50px auto;
+    max-width: 300px; }
+    footer .mobile-footer-wrapper .footer-mobile-menu .mobile-menu-element {
+      text-transform: uppercase;
+      width: 40%;
+      margin-bottom: 20px;
+      font-size: 14px;
+      font-family: "RobotoCondensed-Bold"; }
+  footer .mobile-footer-wrapper .contact-information {
+    text-align: center; }
+    footer .mobile-footer-wrapper .contact-information .contact-title {
+      margin-bottom: 20px; }
+    footer .mobile-footer-wrapper .contact-information .contact-info {
+      margin-bottom: 20px; }
+    footer .mobile-footer-wrapper .contact-information .phone {
+      margin-bottom: 20px; }
+  footer .mobile-footer-wrapper .copyright {
+    margin-top: 50px; }
